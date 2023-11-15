@@ -2,13 +2,19 @@
 
 public class Program {
     public static void main(String[] args) {
+        // Исходное выражение:
         // String equation = "2? + ?5 = 69";
-        String equation = "? + 1? = ??";
+        
+        // Тестовое выражение:
+        String equation = "? + ? = ??";
+
+        // Для ввода выражения с клавиатуры при запуске программы:
         //System.out.println("Введите выражение вида q + w = e, где q, w, e >= 0. Вы можете заменить любую цифру в числах знаком. Мы попробуем восстановить значения.");
         //Scanner console = new Scanner(System.in);
         //String equation = console.nextLine();
         //console.close();
         //System.out.println(restoreEquation(equation));
+
         restoreEquation(equation);
     }
 
@@ -173,7 +179,8 @@ public class Program {
             for (int i = index + 1; i < count; i++)
                 result[i] = array[i];
             return result;
-        } else {
+        } 
+        else {
             for (int i = 0; i < count; i++)
                 result[i] = array[i];
             return result;
