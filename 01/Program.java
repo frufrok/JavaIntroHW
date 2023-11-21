@@ -1,4 +1,4 @@
-﻿import java.util.Scanner;
+﻿//import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class Program {
         // String equation = "2? + ?5 = 69";
         
         // Тестовое выражение:
-        String equation = "? + ? = ??";
+        String equation = "?? + ? = ??";
 
         // Для ввода выражения с клавиатуры при запуске программы:
         //System.out.println("Введите выражение вида q + w = e, где q, w, e >= 0. Вы можете заменить любую цифру в числах знаком. Мы попробуем восстановить значения.");
